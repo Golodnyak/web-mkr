@@ -3,7 +3,7 @@ const back = document.getElementById('prev');
 const reset = document.getElementById('reset');
 const display = document.getElementById('display');
 const number =1;
-next.onclick=()=>{
+next.onclick=()=> {
    const prev =display.innerText;
     display.innerText=Number(prev)+1
 };
